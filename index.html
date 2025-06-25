@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>منشئ مواقع باستخدام Gemini</title>
+    <link rel="stylesheet" href="assets/styles.css">
+    <script defer src="assets/main.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>إنشاء موقع باستخدام Gemini API</h1>
+        <form id="siteForm">
+            <label for="apiKey">مفتاح Gemini API:</label>
+            <input type="text" id="apiKey" placeholder="أدخل مفتاحك هنا" required>
+
+            <label for="siteType">نوع الموقع:</label>
+            <input type="text" id="siteType" placeholder="مثال: موقع طبي، متجر، مدونة..." required>
+
+            <button type="submit">أنشئ الموقع</button>
+        </form>
+
+        <h2>المحتوى المُولد:</h2>
+        <div id="result" class="result"></div>
+    </div>
+</body>
+</html>
